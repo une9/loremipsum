@@ -11,7 +11,7 @@ h1 {
   font-family: Chosunilbo_myungjo;
   color: white;
   display: block;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
   padding-top: 10px;
   margin: 20px;
 }
@@ -19,6 +19,16 @@ h1 {
 h1 a {
   color: white;
   text-decoration: none;
+}
+
+h5 {
+  text-align: center;
+  font-size: 18px;
+  font-family: Chosunilbo_myungjo;
+  color: white;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -46,6 +56,34 @@ body {
   line-height: 1.7;
 }
 
+#exp a {
+  font-size: 5px;
+  color: #1c1c1c;
+  display: block;
+}
+
+#quotation1 {
+  font-style: oblique;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+#quotation2 {
+  text-align: center;
+}
+
+#translation {
+
+  text-align: center;
+  margin: 0px;
+}
+
+#link {
+  font-size: 7px;
+  text-align: center;
+  color: grey;
+}
+
 @media(max-width: 1080px) {
   .article{
     font-size: 14pt;
@@ -56,5 +94,19 @@ body {
   }
   h1 {
     font-size: 50px;
+  }
+  h5 {
+    text-align: center;
+    font-size: 25px;
+    font-family: Chosunilbo_myungjo;
+    color: white;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  #link {
+    font-size: 12px;
+    text-align: center;
+    color: grey;
   }
 }
